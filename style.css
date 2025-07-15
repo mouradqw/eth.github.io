@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 30, 43);
+}
+.container{
+    height: 500px;
+    width: 250px;
+    background-color:rgb(12, 63, 63);
+    border-radius: 15px;
+}
+.equil img{
+    height: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    border-radius: 30px;
+}
+/*background-color: rgba(0, 139, 139, 0.285);*/
+.title{
+     padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    color: aliceblue;
+    font-size: large;
+}
+.text{
+     padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: rgb(70, 72, 74);
+    font-size: medium; 
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 27px;
+    justify-content: space-between;
+}
+.img{
+   color: aqua;
+}
+.time{
+    color: rgb(100, 101, 101);
+}
+hr{
+    width: 200px;
+    background-color:  rgb(100, 101, 101);
+}
+.infopers{
+     padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+
+}
+.infopers img{
+    height: 30px;
+    
+}
+.infopers .namer{
+  color: aliceblue;
+}
+.llm{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 2px;
+}
+.infopers{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+.infopers .llm{
+   padding-top: 6px;
+   padding-left: 6px;
+}
+.infopers .llm .namer{
+   
+   padding-left: 5px;
+}
+.namer:hover{
+   color: aqua;
+   cursor: pointer;
+}
+.title:hover{
+color: aqua;
+cursor: pointer;
+}
+.equil img:hover{
+    background-image: url(icon-view.svg);
+    
+    background-repeat: no-repeat;
+   
+}
